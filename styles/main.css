@@ -1,8 +1,20 @@
 @tailwind base;
+/* 
+Honeydew
+#d3fbdb
 
+Forest Green
+#2b932c
+
+Dark Olive Green
+#2a562c
+
+Dark Sea Green
+#84ab8c
+*/
 :root {
-  --color-primary: #4f8cff;
-  --color-secondary: hsl(231, 51%, 46%);
+  --color-primary: #2b932c;
+  --color-secondary: #2a562c;
   --color-hero: hsl(130, 46%, 34%);
 
   --font-display: system-ui;
@@ -51,3 +63,4 @@ h2 {
 }
 
 @tailwind utilities;
+

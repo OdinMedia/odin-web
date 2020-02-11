@@ -1,0 +1,19 @@
+<?xml version="1.0"?><svg width="50.389107" height="50.307026" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient10611">
+   <stop stop-color="#286a27" id="stop10613" offset="0"/>
+   <stop stop-color="#264826" id="stop10615" offset="1"/>
+  </linearGradient>
+  <linearGradient y2="-0.017969" x2="0.499542" y1="1.034494" x1="0.499542" id="linearGradient10617" xlink:href="#linearGradient10611"/>
+  <linearGradient id="linearGradient5004">
+   <stop stop-color="#8fe68c" id="stop5006" offset="0"/>
+   <stop stop-color="#29902b" id="stop5008" offset="1"/>
+  </linearGradient>
+  <radialGradient r="37.708893" fy="-27.63166" fx="531.03717" cy="-27.63166" cx="531.03717" gradientTransform="matrix(0.5898464918136597,0,0,0.58884596824646,-321.8377990722656,-36.37504196166992)" gradientUnits="userSpaceOnUse" id="radialGradient9538" xlink:href="#linearGradient5004"/>
+ </defs>
+ <metadata id="metadata9558">image/svg+xml</metadata>
+ <g>
+  <path fill="url(#radialGradient9538)" fill-rule="nonzero" stroke="url(#linearGradient10617)" stroke-width="2.954319" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dashoffset="0" id="path9472" d="m49.389057,25.153519a24.19455,24.153509 0 1 1 -0.005131,-0.497898"/>
+  <path fill="#d6ffdc" fill-rule="nonzero" stroke="#33543c" stroke-width="3.076191" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dashoffset="0" d="m15.470171,11.932446l0,25.9229l22.316298,-12.862455l-22.316298,-13.060445z" id="path9478"/>
+ </g>
+</svg>
