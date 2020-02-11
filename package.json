@@ -1,0 +1,39 @@
+{
+  "name": "odin-web",
+  "version": "1.0.0",
+  "description": "Oden Media Server Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "analyze:browser": "cross-env BUNDLE_ANALYZE=browser next build"
+  },
+  "keywords": [],
+  "author": {
+    "email": "contact@snipey.dev",
+    "name": "Stephen Freerking",
+    "url": "https://snipey.dev"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "cssnano": "^4.1.10",
+    "next": "^9.2.1",
+    "postcss-preset-env": "^6.7.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-use": "^12.8.0",
+    "styled-jsx-plugin-postcss": "^2.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.6.2",
+    "@types/react": "^16.8.23",
+    "@types/react-dom": "^16.8.4",
+    "@zeit/next-css": "^1.0.1",
+    "next-purgecss": "^3.1.1",
+    "tailwindcss": "^1.0.5",
+    "typescript": "^3.5.3"
+  }
+}
