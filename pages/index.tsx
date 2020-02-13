@@ -1,8 +1,12 @@
 import Layout from "../components/layout";
-
+import Helmet from 'react-helmet'
 const Home = () => (
   <Layout>
-    <div className="flex flex-col items-center justify-center h-screen bg-background">
+    <Helmet
+      title="Home | Odin Media"
+      meta={[{ property: 'og:title', content: 'Home' }]}
+    />
+    <div className="flex flex-col items-center justify-center h-screen">
       <h1>Odin Media</h1>
       <h2>The Perfect Media Sever</h2>
 

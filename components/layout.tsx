@@ -1,5 +1,5 @@
 import { useLocalStorage } from "react-use";
-import Link from 'next/link'
+
 import "../styles/main.css";
 import Header from "./header";
 const Layout: React.FC = ({ children }) => {
@@ -11,13 +11,13 @@ const Layout: React.FC = ({ children }) => {
   return (
     <div className={theme}>
       <Header />
-      <div
-        className="absolute bottom-0 left-0 btn btn-secondary ml-4 mb-4 cursor-pointer"
+      {/* <div
+        className="absolute bottom-0 left-0 mb-4 ml-4 cursor-pointer btn btn-secondary"
         onClick={toggleTheme}
       >
         {theme}
-      </div>
-      <div>{children}</div>
+      </div> */}
+      <div className="bg-background">{children}</div>
     </div>
   );
 };

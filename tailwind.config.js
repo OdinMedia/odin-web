@@ -8,6 +8,7 @@ module.exports = {
       colors: {
         primary: "var(--color-primary)",
         hero: "var(--color-hero)",
+        highlight: "var(--color-highlight)",
         secondary: "var(--color-secondary)",
         text: "var(--color-text)",
         background: "var(--color-background)"

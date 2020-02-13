@@ -18,6 +18,7 @@
     "url": "https://snipey.dev"
   },
   "dependencies": {
+    "@types/react-helmet": "^5.0.15",
     "cross-env": "^5.2.0",
     "cssnano": "^4.1.10",
     "next": "^9.2.1",
@@ -25,6 +26,7 @@
     "postcss-preset-env": "^6.7.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1",
     "react-use": "^12.8.0",
     "styled-jsx-plugin-postcss": "^2.0.1"
   },
